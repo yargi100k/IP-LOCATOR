@@ -38,6 +38,10 @@ def main():
         print("---------------------------------|")
         print("Company:", ip_info.get("org"))
         print("---------------------------------|")
+        print("VPN:False;")
+        print("---------------------------------|")
+        print("TOR:False;")
+        print("---------------------------------|")
     else:
         print("Error:IP address information could not be obtained.")
 
